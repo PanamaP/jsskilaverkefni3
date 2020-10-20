@@ -10,6 +10,7 @@ Live uppfærist sjálfkrafa en static gerir það ekki.
 ### Hver er munurinn á true og false í AddEventListener?
 
 False -> bubbling phase eða sækir fyrst objectið og svo foreldrið
+
 True -> capturing phase eða sækir fyrst foreldrið svo objectið
 
 
