@@ -13,8 +13,8 @@ False -> bubbling phase eða sækir fyrst objectið og svo foreldrið
 True -> capturing phase eða sækir fyrst foreldrið svo objectið
 
 
-# this vísar í Event listener á html element en ekki á object. Þú getur notað bind() til að breyta því. Leystu eftirfarandi kóðadæmi með notkun á bind() til að birta í console “My name is Sam“ en ekki undefined.
-
+### this vísar í Event listener á html element en ekki á object. Þú getur notað bind() til að breyta því. Leystu eftirfarandi kóðadæmi með notkun á bind() til að birta í console “My name is Sam“ en ekki undefined.
+´´´´
 let Person = {  
   name: 'Sam',  
   sayName: function(){    
@@ -23,17 +23,17 @@ let Person = {
   }
 };
 buttonEl.addEventListener('click', Person.sayName);
+´´´´
 
-
-# svar:
-
+## svar:
+´´´´
 var buttonEl = document.getElementById("takki");
 
 let Person = {  
   name: 'Sam',
   sayName: function(){   
      console.log('My name is '+ this.name);  
-  
   }
 };
 buttonEl.addEventListener('click', Person.sayName.bind(Person));
+´´´´
