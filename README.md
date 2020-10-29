@@ -4,7 +4,7 @@
 
 ## 3.1 DOM (3%)
 
-Sjá möppu 3.2
+Sjá möppu 3.1
 
 
 ## 3.2 DOM og Events. (3%)
