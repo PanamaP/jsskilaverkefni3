@@ -1,5 +1,12 @@
 # jsskilaverkefni3
 
+# Verkefni 3: DOM og Events (15%)
+
+## 3.1 DOM (3%)
+
+Sjá möppu 3.2
+
+
 ## 3.2 DOM og Events. (3%)
 
 
