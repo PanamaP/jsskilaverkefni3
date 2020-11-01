@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+    background: #eeeeee;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .site-wrap {
+    max-width: 700px;
+    margin: 70px auto;
+    background: white;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+    transform: scale(0.98);
+    transition: transform 0.5s;
+  }
+  
+  body.fixed-nav .site-wrap {
+    transform: scale(1);
+  }
+  
+  header {
+    text-align: center;
+    height: 50vh;
+    background: url(https://i.stack.imgur.com/vhoa0.jpg) bottom center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 7vw;
+    text-shadow: 3px 4px 0 rgba(0,0,0,0.2);
+  }
+
+.menuIcon {
+  padding: 5px;
+  display: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.menuIcon div{
+  height: 3px;
+  width: 20px;
+  margin: 5px;
+  background-color: white;
+  text-align: center;
+  margin-left: 50%;
+}
+
+  
+nav div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  text-transform: uppercase;
+  top: 0;
+}
+
+
+.lost{
+  color: red;
+
+}
+
+.mainLink{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.mainLink a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainLink li {
+  list-style: none;
+}
+
+.show-nav #main{
+  top: 15px;
+  width: 100%;
+  z-index: 1;
+  flex-direction: row;
+}
